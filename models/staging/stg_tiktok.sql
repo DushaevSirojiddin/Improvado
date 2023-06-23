@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 with src_tiktok as (
     select 
     ad_id as ad_id,

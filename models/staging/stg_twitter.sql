@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 with src_twitter as (
     select
     NULL as ad_id,
